@@ -1,0 +1,125 @@
+.hero{
+    position: relative;
+    background-image: url(images/party-7.jpg);
+    background-size: cover;
+    padding-bottom: 19rem;
+    font-family: 'Monsterrat', sans-serif;
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+}
+.topline{
+    color: aliceblue;
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1.8;
+}
+h4{
+    color: aliceblue;
+    font-family: 'Sacramento', cursive;
+    padding: 2 auto;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding: 0 0 3.5rem 0;
+    position:relative;
+    bottom: 5%;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.venue{
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#about{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 7% 10%;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: 'Monsterrat',sans-serif;
+}
+h2,h3{
+    color: #0F044C;
+}
+.icon{
+    color: #0F044C;
+    margin: 1rem;
+}
+.icon:hover{
+    color: #BA135D;
+}
+#speakers{
+    background-color: aliceblue;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.speakers-box{
+    position: relative;
+    padding-right: 2rem;
+    line-height: 1.5;
+}
+.name{
+    position: relative;
+    padding-top: 0.5rem;
+}
+#gallery{
+    background-color: aliceblue;
+    text-align: center;
+}
+.testimonial-image{
+    width: 90%;
+    image-resolution: 1;
+}
+
+.sliding {
+    height: 50px;	
+    overflow: hidden;
+    position: relative;
+    background:aliceblue;
+    color: #0F044C;
+    border: 1px solid #0F044C;
+   }
+   .sliding p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    transform:translateX(100%);
+    /* Apply animation to this element */
+    animation: sliding 15s linear infinite;
+   }
+   /* Move it (define the animation) */
+   @keyframes sliding {
+    0%   {
+    transform: translateX(100%); 		
+    }
+    100% {
+    transform: translateX(-100%); 
+    }
+   }
+#footer{
+    padding: 3% 2%;
+    text-align: center;
+    background-color: aliceblue;
+    color: #0F044C;
+}
+.social{
+    margin: 20px 10px;
+}
